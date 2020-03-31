@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "FORBID_CREATION",
+      "type": "java.lang.String",
+      "description": "Description for FORBID_CREATION."
+  }
+] }

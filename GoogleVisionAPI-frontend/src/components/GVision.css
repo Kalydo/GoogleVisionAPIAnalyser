@@ -1,0 +1,68 @@
+
+
+.footer{
+    padding: 45px;
+    background-color: #343a40;
+    color: white;
+    height: 30px;
+}
+
+.header{
+    margin-top: 65px;
+    color: white;
+}
+
+.nav-link{
+    color: azure;
+}
+
+.bodys{
+    margin-bottom: 90px;
+    border: solid;
+    background-color: cadetblue;
+}
+
+.card-size{
+    display:flex;
+    margin: 32px 1vw 32px 1vw;
+    width: 30vw;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.card-img-top{
+    height: 40vh;
+}
+
+.button-position{
+    position: absolute;
+    bottom: 10px;
+    align-self: center;
+}
+
+.page{
+    margin-bottom: 70px;
+}
+
+
+html{
+    position: relative;
+    z-index: 1;
+  }
+  
+  html::before {
+    content: "";
+    background-size: contain;
+    position: absolute;
+    top: -5%; 
+    left: 0;
+    width: 100%; 
+    height: 110%;  
+    opacity: .6; 
+    z-index: -1;
+    background: url('./modules/seychellen.jpg');
+  }
